@@ -5,6 +5,6 @@ There are 17 feature variables and 1 target variable - "Diabetes". This is a bin
 #### Methods :point_down:
 The implemented solution can be summarized in the following core steps:
 * Pre-processing
-* LGBMRegressor
-* KFold as a bagging approach
+* LGBMClassifier
+* StratifiedKFold as a bagging approach
 * Ensemble learning
